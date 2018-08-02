@@ -12,17 +12,20 @@ function assert(condition, error) {
 
 function compareArray(first, second) {
 
+  let response = undefined;
+
   for(var i = 0; i < first.length; i++) {
     if(first[i] !== second[i]) {
       console.log(first[i] + false);
-      //return false;
+      response = false;
 
     } else {
       console.log(first[i] + true);
-      //return true;
+      response = true;
     }
   };
 
+  return response;
 }
 
 var one = [1, 2, 3, 4, 5];
