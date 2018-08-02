@@ -1,6 +1,6 @@
 
 // Evaluate if every value in the array
-// passes the callback function
+// passes the callback function˝
 
 const every = (array, func) => {
   let decider = true;
