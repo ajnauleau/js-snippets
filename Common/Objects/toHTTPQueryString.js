@@ -1,5 +1,7 @@
 
-
+// Converts Object key value and
+// value:array pairs into a useable
+// HTTP url query string.
 
 const toHTTPQueryString = (object) => {
   let objArray = [];

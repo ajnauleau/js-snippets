@@ -13,4 +13,4 @@ const squareEvenNumbers = (array) => {
 
 export default squareEvenNumbers;
 
-squareEvenNumbers([1,2,1,4]);
+// squareEvenNumbers([1,2,1,4]);
