@@ -1,5 +1,5 @@
-// squares each number in an array, then
-// returns the sum
+// squares each even number in an array,
+// then returns the sum
 
 const squareEvenNumbers = (array) => {
   let sum = 0;
